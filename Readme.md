@@ -13,6 +13,11 @@ Import "UIView+Borders.swift” and call any of the following on your UIView, sp
 
 UIView+Borders supports offsets, but invalid offsets won’t do anything (if you set a left offset on a right sided border, for example).
 
+    let view: UIView = UIView()
+    view.addBorder(side: .bottom, color: UIColor.black, leftOffset: 15.0)
+    
+-
+
     enum ViewSide {
         case top
         case right
