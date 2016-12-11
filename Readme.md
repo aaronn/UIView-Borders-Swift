@@ -5,6 +5,8 @@
 ## Installation
 
 ### Carthage
+Add this to your Cartfile:
+
     github "aaronn/UIView-Borders-Swift"
 
 
