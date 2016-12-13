@@ -1,5 +1,7 @@
 # UIView+Borders
 
+**This is the Swift3 version of [UIView+Borders](https://github.com/aaronn/UIView-Borders)**
+
 **Add borders to everything!** A quick and simple UIView extension to add one-sided borders to your UIViews. Supports both layer-backed borders and UIView backed borders, if layers aren't possible. Supports one-sided borders with offset amounts for top, right, bottom and left sides! Also supports autoresizing.
 
 ## Installation
@@ -11,7 +13,7 @@ Add this to your Cartfile:
 
 
 ### Manual
-Just add "UIView+Borders.swift” to your project. 
+Just add "UIView+Borders.swift” to your project.
 
 ## Usage
 Import "UIView+Borders.swift” and call any of the following on your UIView, specifying the side, thickness, and color to get a CALayer backed border which you can then set into a property and add as a sublayer (or subview). You can also specify a view-backed border instead of CALayer if you need it (check the source).
@@ -23,7 +25,7 @@ UIView+Borders supports offsets, but invalid offsets won’t do anything (if you
 
     let view: UIView = UIView()
     view.addBorder(side: .bottom, color: UIColor.black, leftOffset: 15.0)
-    
+
 -
 
     enum ViewSide {
@@ -32,7 +34,7 @@ UIView+Borders supports offsets, but invalid offsets won’t do anything (if you
         case bottom
         case left
     }
-    
+
     func createBorder(side: ViewSide, thickness: CGFloat, color: UIColor, leftOffset: CGFloat = 0, rightOffset: CGFloat = 0, topOffset: CGFloat = 0, bottomOffset: CGFloat = 0) -> CALayer
 
 
@@ -44,7 +46,7 @@ Alternatively, if you just want a quick border dropped into your UIView, use the
         case bottom
         case left
     }
-    
+
     func addBorder(side: ViewSide, thickness: CGFloat, color: UIColor, leftOffset: CGFloat = 0, rightOffset: CGFloat = 0, topOffset: CGFloat = 0, bottomOffset: CGFloat = 0)
 
 ## Why One Sided Borders?
