@@ -11,6 +11,6 @@ let package = Package(
         .library(name: name, targets: [name])
     ],
     targets: [
-        .target(name: name, path: name)
+        .target(name: name, path: name, exclude: ["Info.plist"])
     ]
 )
