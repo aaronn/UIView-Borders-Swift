@@ -12,6 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4674E52725C329260070B625 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		93A98CE71DFCDB97009FBE55 /* UIViewBordersSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewBordersSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A98CEA1DFCDB97009FBE55 /* UIViewBordersSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewBordersSwift.h; sourceTree = "<group>"; };
 		93A98CEB1DFCDB97009FBE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		93A98CDD1DFCDB97009FBE55 = {
 			isa = PBXGroup;
 			children = (
+				4674E52725C329260070B625 /* Package.swift */,
 				93A98CE91DFCDB97009FBE55 /* UIViewBordersSwift */,
 				93A98CE81DFCDB97009FBE55 /* Products */,
 			);
